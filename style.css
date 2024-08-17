@@ -3,12 +3,14 @@
     padding:0;
 }
 
-body{
-
+#about-body{
+    background-image: url(./images/pexels-nietjuh-843226.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 #profile{
-    background-image: url(./images/337555079_919087452763188_1908685275865168526_n.jpg);
+   background-image: url(./images/337555079_919087452763188_1908685275865168526_n.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     width:100%;
@@ -28,13 +30,14 @@ body{
     margin-left:2rem;
 
 }
+
 .about-h3{
     text-align: center;
     margin-top: 5rem;
     border-top: 1px solid goldenrod;
     border-bottom: 1px solid goldenrod;
     width: 20%;
-   margin-left: 25rem;
+    margin-left: 25rem;
 
 }
 
@@ -54,15 +57,15 @@ body{
 /* HOMEPAGE STYLING */
 
 #home{
-    background-image: url(./images/flat-design-polygonal-background_23-2148900723.avif);
+    background-image: url(./images/pexels-nietjuh-843226.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 nav{
-   padding: 1em;
+    padding: 1em;
     text-align: left;
-    background-color: goldenrod;
+    background-color: whitesmoke;
 
 }
 .nav-list{
@@ -120,12 +123,12 @@ transition:2s;
 h3{
     margin: 5px 0 0 5px ;
     font-size: larger;
-    color: blue;
+    color: rgb(1, 1, 18);
     
 }
 .welcome{
     margin-top:20px;
-    color:rgba(14, 30, 175, 0.89);
+    color:rgba(1, 1, 2, 0.89);
     text-align: center;
     
 }
@@ -141,7 +144,7 @@ p{
 }
 
 .welcome-p{
-    color:rgba(14, 30, 175, 0.89);
+    color:rgba(253, 253, 253, 0.89);
     text-align: center;
 }
 
@@ -162,7 +165,7 @@ p{
 /*REGISTRATION STYLING*/
 
 #reg-page-bg{
-    background-image: url(./images/flat-design-polygonal-background_23-2148900723.avif);
+    background-image: url(./images/pexels-nietjuh-843226.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -266,7 +269,7 @@ section{
 /*LOGIN PAGE STYLING*/
 
 #login-page{
-    background-image: url(./images/flat-design-polygonal-background_23-2148900723.avif);
+    background-image: url(./images/pexels-nietjuh-843226.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -359,7 +362,7 @@ margin-left: 15rem;
 /*FORGETTON PASSWORD PAGE STYLING */
 
 #chang-page{
-    background-image: url(./images/flat-design-polygonal-background_23-2148900723.avif);
+    background-image: url(./images/pexels-nietjuh-843226.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -414,6 +417,12 @@ margin-left: 15rem;
     color: blue;
 }
 /*PROFOLIO PAGE STYLING*/
+
+#port-body{
+    background-image: url(./images/pexels-nietjuh-843226.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .pro-list-wrapper{
     text-align: center;
