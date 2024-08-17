@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale 1.0">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/5032c1feb6.js" crossorigin="anonymous"></script>
+	
+</head>
+<body id="reg-body">
+	
+	<div id="reg">
+		<h2 class="h2-reg">Register</h2>
+		<form>
+			<input type="text" onchange="alert('thank you for the entry');
+			confrim('are you sure you want to contiune?');" name="fname" id="fname" placeholder=" Full Name" required><br>
+			<input type="text" name="m_num" id="m_num" minlength="11" placeholder=" Matric Number" required="required"><br>
+			<select id="level" name="level">
+				<option value="level"> Level</option>
+				<option value="100">100</option>
+				<option value="200">200</option>
+				<option value="300">300</option>
+				<option value="400">400</option>
+			</select><br><br>
+			<input type="password" name="pass" id="pass" maxlength="16" minlength="8" placeholder=" Password" required="required"><br>
+
+			<input type="password" name="c_pass" id="c_pass" maxlength="16" minlength="8" placeholder=" Confrim password" required="required"><br>
+			
+				<input type="submit" value="Get started"><br>
+			
+			<div class="form-p">
+				<p class="already">Already have an account</p>
+				<a class="login" href="javascript:void(") " onclick="open('login.html', 'links', 'height=200, width=200'); "><p>Login</p></a>
+
+			</div>
+			
+
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+
+#banner{
+    
+    background: linear-gradient(rgba(0,0,0,0.5),#ccd3d2d9), url(backgroung.png.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+}
+
+.logo{
+    
+  width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.banner-text{
+    text-align: center;
+    color: orangered;
+    padding-top: 180px;
+    
+    
+}
+
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Great Vibes', cursive;
+    
+}
+
+.banner-text p{
+    
+   font-size: 20px;
+    font-style: italic;
+    
+}
+
+.banner-btn{
+    margin: 70px auto 0;
+    
+}
+
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding 12px 0;
+    color: orangered;
+    border: .5px solid orangered;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: orangered;
+    z-index: -1;
+    transition: 0.5s;
+    
+}
+
+.banner-btn a:hover span{
+    width: 100;
+    
+    
+}
+
+.banner-btn a:hover{
+    color: #000;
+    
+}
+
+.sideNav{
+ width: 120px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background:#ccd3d2d9;
+    z-index: 2; 
+}
+
+nav ul li{
+    background-color: #ccd3d2d9;
+overflow: hidden;
+    
+    
+}
+
+nav ul li a{
+    float: right;
+    display: block;
+    color: orangered;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+nav ul li a:active{
+    background-color: #ccd3d2d9;
+    color: white;
+}
+.sideNav .icon{
+    display: none;
+}
+
+@media screen and (max-width:800px){
+    nav ul li a:not(:first-child)
+    {display: none;}
+    
+    nav ul li a.icon
+    {float: right;
+    display: block;
+    }
+}
+@media screen and (max-width:800px){
+    nav ul li . responsive
+    {position: relative;}
+    nav ul li . responsive a.icon{
+        position: absolute;
+        display: block;
+text-align: right;
+    }
+}
+
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background:#ccd3d2d9;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    top: 30px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;  
+}
+
+#menuBtn img{
+    width: 40px;
+    margin-top: 15px;
+    
+    
+    
+}

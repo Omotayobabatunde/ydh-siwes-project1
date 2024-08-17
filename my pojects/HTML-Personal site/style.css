@@ -1,0 +1,64 @@
+    body{
+          background-color: yellow;
+            
+        }
+img{
+
+     border-radius: 100%;
+}
+
+        
+hr{
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 5px;
+            border-color: gold;
+            width: 5%;
+            
+        }
+    
+h3{
+    color: blue;
+}
+               
+ h1{
+    color: #66BFBF;
+}
+          
+p{
+    color: blue;
+    
+}
+
+th{
+    color: blue;
+    
+}
+   
+td{
+    color: blue;
+    text-decoration: hidden;
+}
+
+li{
+   color: blue; 
+}
+
+
+input {
+    background-color: var(--color-realbox-background);
+    border: none;
+    border-radius: var(--ntp-realbox-border-radius);
+    color: var(--color-realbox-foreground);
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: 0;
+    position: relative;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    color: red;
+}

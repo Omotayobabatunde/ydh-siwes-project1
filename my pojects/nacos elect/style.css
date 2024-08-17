@@ -1,0 +1,307 @@
+*{
+	
+	box-sizing: border-box; 
+}
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0;
+
+}
+
+#welcome{
+
+	color:rgba(3, 126, 3, 0.918);
+	font-family: "IBM Plex Sans", sans-serif;
+  	font-weight: 500;
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+
+}
+	
+
+h1{
+	font-size: 40px;
+	transition: 2s;
+	text-align: center;
+	margin-top: 0;
+}
+img{
+	transition: 3s;
+	margin-left: 38px;
+
+
+}
+
+img:hover{
+	transform: scale(0.8);
+	
+	
+}
+ h1:hover{
+	color: rgba(20, 218, 20, 0.89);
+	
+}
+
+/*Mobile Devices (max-width: 768px)*/
+@media(max-width: 768px){
+
+#welcome{
+		font-weight: 500px;
+}
+
+h1{
+	font-size: 20px;
+}
+}
+
+/*Tablets(min-width: 769px)and(max-width: 1024)*/
+@media(min-width: 769px)and(max-width: 1024){
+
+	#welcome{
+		font-weight: 500px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+}
+
+/*Dektop(min-width: 1025px)*/
+@media(min-width: 1025px){
+
+	#welcome{
+		font-weight: 500px;
+}
+
+h1{
+	font-size: 40px;
+}
+
+img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+}
+
+}
+
+
+/*registeration page*/
+
+#reg-body{
+	background-color: lightgreen;  
+	font-family: "IBM Plex Sans", sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0;
+}
+
+#reg{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: green;
+	
+}
+.h2-reg{
+	text-align: center;
+	font-weight: bold;
+	font-family: inherit;
+	margin-bottom: 0;
+}
+form{
+	
+	padding: 10px 10px 0 20px;
+	width: 100%;
+	font-family: inherit;
+}
+
+input{
+	display: flex;
+	flex-direction: row;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border-style:none;
+	background-color: white;
+	margin-top: 10px;
+	width: 100%;
+}
+select{
+	width: 100%;
+	padding: 5px 40px 5px 10px;
+	border-style: none;
+	border-radius:10px;
+}
+.form-p{
+	display:flex;
+	margin-top: 0px;
+	padding: 0;
+}
+
+input[type="submit"]{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 10px;
+	color: white;
+	background-color: darkgreen;
+	width: 100%;
+	margin-top: 10px;
+	font-size: 20px;
+
+}
+.already{
+	margin-right: 10px;
+	margin-top: 0;
+	font-size: 14px;
+}
+
+.login{
+	margin-left: 20px;
+	margin-top: 0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*candidate-election page styling*/
+#candidates-page-body{
+
+	background-color: lightgreen;  
+	font-family: "IBM Plex Sans", sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0;
+}
+
+#candidates-page{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 80px;
+
+}
+.for{
+	margin-bottom:0;
+}
+.post{
+	margin-top: 0;
+}
+.first-two{
+	margin-right: 40px;
+}
+.last-two{
+	margin-left: 40px;
+}
+.candidates-h2{
+	text-align: center;
+	margin-top: 60px;
+}
+.vote{
+	text-decoration: none;
+}
+
+/*login page styling*/
+#login-page-body{
+	background-color: lightgreen;  
+	font-family: "IBM Plex Sans", sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0;
+}
+
+#login-page{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.login-h2{
+	text-align: center;
+	font-family: inherit;
+}
+
+/*candid1 page styling*/
+#candid1-page-body,#candid2-page-body,#candid3-page-body,#candid4-page-body {
+	background-color: lightgreen;  
+	font-family: "IBM Plex Sans", sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0;
+}
+.images{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 30px;
+	margin-bottom: 40px;
+}
+
+button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 10px;
+	color: white;
+	background-color: darkgreen;
+	width: 100%;
+	margin-top: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 4s;
+	border-style: none;
+}
+button:hover{
+	background-color: yellowgreen;
+}
+#candid1-page,#candid2-page,#candid3-page,#candid4-page{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*ELECTION RESULT*/
+.stats{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#election-result-page-body{
+	background-color: lightgreen;  
+	font-family: "IBM Plex Sans", sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin:0;
+	font-weight: bold;
+	text-align: left;
+}
+
+.candid-name{
+padding:20px;
+
+}
+.candid-names{
+	padding: 20px 40px;
+	
+}
+.stats-caption{
+	padding: 10px;
+}
